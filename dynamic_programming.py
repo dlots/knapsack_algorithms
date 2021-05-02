@@ -1,3 +1,6 @@
+__author__ = 'dselivanovskaya'  # GitHub user name
+
+
 import numpy as np
 
 

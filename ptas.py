@@ -1,3 +1,6 @@
+__author__ = 'dlots'  # GitHub user name
+
+
 import itertools
 
 
