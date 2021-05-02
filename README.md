@@ -1,3 +1,7 @@
+# Лабораторная работа №2: Задача о рюкзаке
+### 18ПМИ Богородицкая Екатерина, Сазанов Дмитрий, Селивановская Дарья
+
+
 ```python
 import os.path as path
 
@@ -140,28 +144,28 @@ for index in range(len(dataset)):
     Profit: 309
     Weight: 165
     Comparisons: 187
-    Time: 0.09299492835998535 (100 iterations)
+    Time: 0.1672821044921875 (100 iterations)
     
     knapsack_dp
     Items: [1, 1, 1, 1, 0, 1, 0, 0, 0, 0]
     Profit: 309
     Weight: 165
-    Comparisons: 6446
-    Time: 0.6312522888183594 (100 iterations)
+    Comparisons: 1826
+    Time: 0.7765276432037354 (100 iterations)
     
     two_approx
     Items: [1, 1, 1, 1, 0, 1, 0, 0, 0, 0]
     Profit: 309
     Weight: 165
     Comparisons: None
-    Time: 0.008998870849609375 (100 iterations)
+    Time: 0.006340503692626953 (100 iterations)
     
     Branch_and_boundary
     Items: [1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0]
     Profit: 309
     Weight: 165
     Comparisons: 95
-    Time: 7.807088136672974 (10 iterations)
+    Time: 7.695439577102661 (10 iterations)
     
     
     Sample 2
@@ -171,28 +175,28 @@ for index in range(len(dataset)):
     Profit: 51
     Weight: 26
     Comparisons: 12
-    Time: 0.0030002593994140625 (100 iterations)
+    Time: 0.0024690628051757812 (100 iterations)
     
     knapsack_dp
     Items: [0, 1, 1, 1, 0]
     Profit: 51
     Weight: 26
-    Comparisons: 553
-    Time: 0.047998666763305664 (100 iterations)
+    Comparisons: 162
+    Time: 0.04814934730529785 (100 iterations)
     
     two_approx
     Items: [1, 0, 1, 0, 0]
     Profit: 47
     Weight: 23
     Comparisons: None
-    Time: 0.00599980354309082 (100 iterations)
+    Time: 0.00417327880859375 (100 iterations)
     
     Branch_and_boundary
     Items: [0.0, 1.0, 1.0, 1.0, 0.0]
     Profit: 51
     Weight: 26
     Comparisons: 15
-    Time: 0.8506834506988525 (10 iterations)
+    Time: 0.9385185241699219 (10 iterations)
     
     
     Sample 3
@@ -202,28 +206,28 @@ for index in range(len(dataset)):
     Profit: 150
     Weight: 190
     Comparisons: 32
-    Time: 0.013047933578491211 (100 iterations)
+    Time: 0.01832127571105957 (100 iterations)
     
     knapsack_dp
     Items: [1, 1, 0, 0, 1, 0]
     Profit: 150
     Weight: 190
-    Comparisons: 4622
-    Time: 0.39899754524230957 (100 iterations)
+    Comparisons: 1337
+    Time: 0.5683188438415527 (100 iterations)
     
     two_approx
     Items: [0, 0, 1, 0, 1, 1]
     Profit: 119
     Weight: 172
     Comparisons: None
-    Time: 0.011060953140258789 (100 iterations)
+    Time: 0.014359712600708008 (100 iterations)
     
     Branch_and_boundary
     Items: [1.0, 1.0, 0.0, 0.0, 1.0, 0.0]
     Profit: 150
     Weight: 190
     Comparisons: 23
-    Time: 1.488276481628418 (10 iterations)
+    Time: 1.6938800811767578 (10 iterations)
     
     
     Sample 4
@@ -233,28 +237,28 @@ for index in range(len(dataset)):
     Profit: 105
     Weight: 50
     Comparisons: 61
-    Time: 0.02800726890563965 (100 iterations)
+    Time: 0.02057480812072754 (100 iterations)
     
     knapsack_dp
     Items: [1, 0, 0, 1, 0, 0, 0]
     Profit: 107
     Weight: 50
-    Comparisons: 1445
-    Time: 0.19856524467468262 (100 iterations)
+    Comparisons: 408
+    Time: 0.13924193382263184 (100 iterations)
     
     two_approx
     Items: [1, 0, 0, 1, 0, 0, 0]
     Profit: 107
     Weight: 50
     Comparisons: None
-    Time: 0.011854887008666992 (100 iterations)
+    Time: 0.0052144527435302734 (100 iterations)
     
     Branch_and_boundary
     Items: [1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]
     Profit: 107
     Weight: 50
     Comparisons: 39
-    Time: 2.491638422012329 (10 iterations)
+    Time: 2.323709011077881 (10 iterations)
     
     
     Sample 5
@@ -264,28 +268,28 @@ for index in range(len(dataset)):
     Profit: 900
     Weight: 104
     Comparisons: 110
-    Time: 0.06296300888061523 (100 iterations)
+    Time: 0.05936789512634277 (100 iterations)
     
     knapsack_dp
     Items: [1, 0, 1, 1, 1, 0, 1, 1]
     Profit: 900
     Weight: 104
-    Comparisons: 3437
-    Time: 0.3310976028442383 (100 iterations)
+    Comparisons: 945
+    Time: 0.32321834564208984 (100 iterations)
     
     two_approx
     Items: [0, 1, 1, 1, 0, 1, 1, 1]
     Profit: 888
     Weight: 92
     Comparisons: None
-    Time: 0.024937152862548828 (100 iterations)
+    Time: 0.028102397918701172 (100 iterations)
     
     Branch_and_boundary
     Items: [1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0]
     Profit: 900
     Weight: 104
     Comparisons: 21
-    Time: 1.7051334381103516 (10 iterations)
+    Time: 1.689634084701538 (10 iterations)
     
     
     Sample 6
@@ -295,28 +299,28 @@ for index in range(len(dataset)):
     Profit: 1735
     Weight: 169
     Comparisons: 66
-    Time: 0.035054922103881836 (100 iterations)
+    Time: 0.026411771774291992 (100 iterations)
     
     knapsack_dp
     Items: [0, 1, 0, 1, 0, 0, 1]
     Profit: 1735
     Weight: 169
-    Comparisons: 4767
-    Time: 0.45981884002685547 (100 iterations)
+    Comparisons: 1368
+    Time: 0.4283626079559326 (100 iterations)
     
     two_approx
     Items: [0, 1, 0, 1, 0, 0, 1]
     Profit: 1735
     Weight: 169
     Comparisons: None
-    Time: 0.029996871948242188 (100 iterations)
+    Time: 0.03157639503479004 (100 iterations)
     
     Branch_and_boundary
     Items: [0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]
     Profit: 1735
     Weight: 169
     Comparisons: 109
-    Time: 5.59095311164856 (10 iterations)
+    Time: 5.518566846847534 (10 iterations)
     
     
     Sample 7
@@ -326,28 +330,28 @@ for index in range(len(dataset)):
     Profit: 1419
     Weight: 735
     Comparisons: 910
-    Time: 0.7088770866394043 (100 iterations)
+    Time: 0.713756799697876 (100 iterations)
     
     knapsack_dp
     Items: [1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1]
     Profit: 1458
     Weight: 749
-    Comparisons: 45145
-    Time: 4.634957313537598 (100 iterations)
+    Comparisons: 12016
+    Time: 4.694413661956787 (100 iterations)
     
     two_approx
     Items: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
     Profit: 1315
     Weight: 682
     Comparisons: None
-    Time: 0.016052722930908203 (100 iterations)
+    Time: 0.020045995712280273 (100 iterations)
     
     Branch_and_boundary
     Items: [1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0]
     Profit: 1458
     Weight: 749
     Comparisons: 1305
-    Time: 155.66053795814514 (10 iterations)
+    Time: 170.38672018051147 (10 iterations)
     
     
     
